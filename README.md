@@ -1,4 +1,4 @@
-# iit-vue-ui
+# @iit/vue-ui
 
 ## Project setup
 ```
