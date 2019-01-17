@@ -1,8 +1,9 @@
 # @iit/vue-ui
+It's just a library with some custom Vue components.
 
 ## Project setup
 ```
-npm install
+npm install @iit/vue-ui
 ```
 
 ### Compiles and hot-reloads for development
