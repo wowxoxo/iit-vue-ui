@@ -1,6 +1,6 @@
 {
   "name": "@iit/vue-ui",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "author": "wowxoxo",
   "description": "It's just a library with some custom Vue components",
   "license": "ISC",
@@ -8,7 +8,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name iit-vue-ui ./src/components/_globals.js",
+    "build-bundle": "vue-cli-service build --target lib --name iit-vue-ui ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
@@ -19,7 +19,6 @@
     "*.js"
   ],
   "dependencies": {
-    "lodash": "^4.17.11",
     "vue": "^2.5.21"
   },
   "devDependencies": {

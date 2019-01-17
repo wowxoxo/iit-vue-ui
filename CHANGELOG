@@ -18,3 +18,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Edited
 - bundle script
 - README
+
+## [0.0.13] - 2019-01-17
+### Edited
+- new bundle script - errors
+
+## [0.0.14] - 2019-01-17
+### Edited
+- revert bundle script to old and edited
