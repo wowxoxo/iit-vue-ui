@@ -1,20 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <iit-checkbox label-size="small">test label</iit-checkbox>
+    <Demo msg="Components demo preview"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import IitCheckbox from "./components/IitCheckbox.vue";
-
+import Demo from "./components/Demo.vue";
 export default {
   name: "app",
   components: {
-    HelloWorld,
-    IitCheckbox
+    Demo
   }
 };
 </script>
