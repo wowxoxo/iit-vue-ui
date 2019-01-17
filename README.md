@@ -1,27 +1,23 @@
 # @iit/vue-ui
+[![GitHub version](https://badge.fury.io/gh/boennemann%2Fbadges.svg)](http://badge.fury.io/gh/boennemann%2Fbadges)
 It's just a library with some custom Vue components.
 
-## Project setup
-```
-npm install @iit/vue-ui
-```
+## Installation and Usage
+1. Install package:
+    ```
+    npm install @iit/vue-ui -S
+    ```
+2. Include the scripts by using following snippet:
+    ```
+    import IitComponents from "@iit/vue-ui";
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+    Object.keys(IitComponents).forEach(name => {
+        Vue.component(name, IitComponents[name]);
+    });
+    ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## List of components:
 
-### Run your tests
-```
-npm run test
-```
+All components are registered with the Vue global and are available for use. You don't need to re-register them.
 
-### Lints and fixes files
-```
-npm run lint
-```
+List is empty now.

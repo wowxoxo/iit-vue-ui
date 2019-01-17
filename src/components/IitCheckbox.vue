@@ -68,7 +68,7 @@ export default {
     position: absolute
     z-index: -1
     opacity: 0
-    left: -1000px
+    left: -10000px
 
   .checkbox__indicator
     position: absolute

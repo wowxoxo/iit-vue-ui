@@ -41,5 +41,9 @@
   "bugs": {
     "url": "https://github.com/wowxoxo/iit-vue-ui/issues"
   },
-  "homepage": "https://github.com/wowxoxo/iit-vue-ui#readme"
+  "homepage": "https://github.com/wowxoxo/iit-vue-ui#readme",
+  "keywords": [
+    "vue",
+    "components"
+  ]
 }
