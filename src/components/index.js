@@ -1,8 +1,8 @@
 // import Vue from "vue";
-import IitCheckbox from "./IitCheckbox.vue";
+import iitCheckbox from "./IitCheckbox.vue";
 
 const Components = {
-  IitCheckbox
+  iitCheckbox
 };
 
 // Object.keys(Components).forEach(name => {

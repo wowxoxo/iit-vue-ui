@@ -1,19 +1,32 @@
 <template lang="pug">
   .demo
     h1.demo__title {{ msg }}
-    iit-checkbox(label-size="small") test label
-
+    iit-checkbox(label-size="small" v-model="checked") test label
+    iit-input(v-model="test" label="test label" v-on:focus="onFocus")
 </template>
 
 <script>
-import IitCheckbox from "./IitCheckbox.vue";
+import iitCheckbox from "./iitCheckbox.vue";
+import iitInput from "./iitInput.vue";
 export default {
   name: "Demo",
   props: {
     msg: String
   },
+  data() {
+    return {
+      checked: true,
+      test: "hello"
+    };
+  },
+  methods: {
+    onFocus() {
+      alert("onFocus!");
+    }
+  },
   components: {
-    IitCheckbox
+    iitCheckbox,
+    iitInput
   }
 };
 </script>
