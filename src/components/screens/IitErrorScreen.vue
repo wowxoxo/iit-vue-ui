@@ -62,5 +62,4 @@ $fsize-h2: 40px
     display: flex
     justify-content: center
     margin-top: 2 * $base-indent
-
 </style>

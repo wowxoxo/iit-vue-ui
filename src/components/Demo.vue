@@ -40,8 +40,8 @@ export default {
 </script>
 
 <style lang="sass">
-  .demo
-    text-align: left
-    &__title
-      text-align: center
+.demo
+  text-align: left
+  &__title
+    text-align: center
 </style>
