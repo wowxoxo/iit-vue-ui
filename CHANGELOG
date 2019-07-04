@@ -26,3 +26,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.0.14] - 2019-01-17
 ### Edited
 - revert bundle script to old and edited
+
+## [0.1.0] - 2019-07-04
+### Added
+- Components:
+ - IitIconBase
+ - IitIconLogo
+ - IitIconSad
+ - IitLoaderl
+ - IitErrorScreen
+- bemto
