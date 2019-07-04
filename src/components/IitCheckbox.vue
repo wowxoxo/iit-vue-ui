@@ -7,7 +7,7 @@
       :name="name"
       :value="value"
       :checked="checked"
-      @change="$emit('checkbox changed', $event.target.checked)"
+      @change="$emit('iit-checkbox-change', $event.target.checked)"
       )
     .checkbox__indicator
 
@@ -15,6 +15,10 @@
 
 <script>
 export default {
+  model: {
+    prop: "checked",
+    event: "iit-checkbox-change"
+  },
   props: {
     value: {
       type: [Array, Object, Boolean, String],
@@ -24,10 +28,7 @@ export default {
       type: String,
       default: "name"
     },
-    checked: {
-      type: Boolean,
-      default: false
-    },
+    checked: Boolean,
     label: {
       type: String,
       default: "label"

@@ -20,6 +20,17 @@ export default {
   props: {
     msg: String
   },
+  data() {
+    return {
+      checked: true,
+      test: "hello"
+    };
+  },
+  methods: {
+    onFocus() {
+      alert("onFocus!");
+    }
+  },
   components: {
     IitCheckbox,
     IitLoader,
