@@ -10,6 +10,10 @@ Vue.component("iit-icon-sad", IitIconSad);
 Vue.component("iit-icon-logo", IitIconLogo);
 Vue.config.productionTip = false;
 
+Vue.filter("currency", value => {
+  return value.toLocaleString() + "&nbsp;₽";
+});
+
 new Vue({
   render: h => h(App)
 }).$mount("#app");

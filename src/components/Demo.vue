@@ -2,6 +2,8 @@
   .demo
     h1.demo__title {{ msg }}
     iit-checkbox(label-size="small") test label
+    IitAnimatedNumber(:number="number")
+    button(@click="changeNum") changeNum
     IitLoader Пожалуйста, подождите...
     IitErrorScreen
       template(slot="icon")
@@ -15,6 +17,7 @@
 import IitCheckbox from "./IitCheckbox.vue";
 import IitLoader from "./IitLoader.vue";
 import IitErrorScreen from "@/components/screens/IitErrorScreen.vue";
+import IitAnimatedNumber from "@/components/IitAnimatedNumber.vue";
 export default {
   name: "Demo",
   props: {
@@ -23,18 +26,23 @@ export default {
   data() {
     return {
       checked: true,
-      test: "hello"
+      test: "hello",
+      number: 1000
     };
   },
   methods: {
     onFocus() {
       alert("onFocus!");
+    },
+    changeNum() {
+      this.number += 1234;
     }
   },
   components: {
     IitCheckbox,
     IitLoader,
-    IitErrorScreen
+    IitErrorScreen,
+    IitAnimatedNumber
   }
 };
 </script>
