@@ -4,7 +4,7 @@ import IitIconLogo from "./icons/IitIconLogo.vue";
 import IitIconSad from "./icons/IitIconSad.vue";
 import IitLoader from "./IitLoader.vue";
 import IitErrorScreen from "./screens/IitErrorScreen.vue";
-import IitAnimatedNumber from "./screens/IitAnimatedNumber.vue";
+import IitAnimatedNumber from "./IitAnimatedNumber.vue";
 
 const Components = {
   IitIconBase,
