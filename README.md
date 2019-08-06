@@ -1,5 +1,5 @@
 # @iit/vue-ui
-[![](https://img.shields.io/npm/v/@iit/vue-ui.svg)](https://www.npmjs.com/package/@iit/vue-ui) [![Generic badge](https://img.shields.io/badge/version-0.1.01-<COLOR>.svg)](https://github.com/wowxoxo/iit-vue-ui)
+[![](https://img.shields.io/npm/v/@iit/vue-ui.svg)](https://www.npmjs.com/package/@iit/vue-ui) [![Generic badge](https://img.shields.io/badge/version-0.1.4-<COLOR>.svg)](https://github.com/wowxoxo/iit-vue-ui)
 
 It's just a library with some custom Vue components.
 

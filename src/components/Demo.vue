@@ -11,6 +11,8 @@
             iit-icon-sad
       p Некорректные данные заказа. Работа приложения не может быть продолжена.
 
+    IitLoaderSpinner Пожалуйста, обождите
+
 </template>
 
 <script>
@@ -18,6 +20,7 @@ import IitCheckbox from "./IitCheckbox.vue";
 import IitLoader from "./IitLoader.vue";
 import IitErrorScreen from "@/components/screens/IitErrorScreen.vue";
 import IitAnimatedNumber from "@/components/IitAnimatedNumber.vue";
+import IitLoaderSpinner from "./IitLoaderSpinner.vue";
 export default {
   name: "Demo",
   props: {
@@ -42,7 +45,8 @@ export default {
     IitCheckbox,
     IitLoader,
     IitErrorScreen,
-    IitAnimatedNumber
+    IitAnimatedNumber,
+    IitLoaderSpinner
   }
 };
 </script>
